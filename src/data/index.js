@@ -9,8 +9,8 @@ const STATUS = {
 const notes = [
   {
     _id: generatePrefixedID(),
-    name: "Walk the dog",
-    description: "Go to the park",
+    name: "Yasir el Bouazzati",
+    description: "Go to the school",
     important: false,
     status: STATUS.PENDING,
     due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),

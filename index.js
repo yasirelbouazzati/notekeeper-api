@@ -20,7 +20,7 @@ app.listen(PORT, () => {
   Logger.lineDivider();
   Logger.lineFeed();
   Logger.log(
-    chalk.yellow("👋", chalk.bold("Notekeeper API"), `v.${appVersion} is up!`)
+    chalk.yellow("👋", chalk.bold("Notekeeper API"), `v.${appVersion} is up!`),
   );
   Logger.lineFeed();
   Logger.log(chalk.green(`🚀 Server running at port ${PORT}...`));
